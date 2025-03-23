@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miguel - Développeur Web</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body data-spy="scroll"  data-target=".navbar" data-offset="60">
+    <nav class="navbar navbar-default navbar-fixed-top">
+
+        <div class="container">
+            <div class="navbar-header">
+                <button class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                     <li><a href="#about">Moi</a></li>
+                     <li><a href="#skills">Compétence</a></li>
+                     <li><a href="#experience">Expérience</a></li>
+                     <li><a href="#education">Education</a></li>
+                     <li><a href="#portfolio">Portfolio</a></li>
+                     <li><a href="#recommandation">Recommandation</a></li>
+
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+    <section id="about" class="container-fluid">
+        <div class="row text-center"> <!-- Centrer tout le contenu -->
+            <div class="col-xs-12 col-md-4 col-md-offset-4 profile-picture"> <!-- Centrer l'image -->
+                <img src="images/Capture.PNG" alt="Miguel" class="img-circle">
+            </div>
+            <div class="col-xs-12 col-md-8 col-md-offset-2 heading"> <!-- Centrer le heading -->
+                <h1>Hello, c'est Moi MIGUEL FRED</h1>
+                <h3>Développeur web</h3>
+                <a href="docs/20.4 CV_miguel.pdf" class="button1">Télécharger CV</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="red-divider">
+            <div style="margin-bottom:40px; text-transform:uppercase;  color:#db2c2e;">
+               <center><h2>compétences</h2></center> 
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                         <div class="progress">
+                            <div class="progress-bar" role="progress-bar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:85%">
+                                <h5>HTML 85%</h5>
+                            </div>
+                         </div>
+                         <div class="progress">
+                            <div class="progress-bar" role="progress-bar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:85%">
+                                <h5>CSS 65%</h5>
+                            </div>
+                         </div>
+                         <div class="progress">
+                            <div class="progress-bar" role="progress-bar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:85%">
+                                <h5>JAVASCRIPT 70%</h5>
+                            </div>
+                         </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="progress">
+                            <div class="progress-bar" role="progress-bar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:85%">
+                                <h5>JQUERY 85%</h5>
+                            </div>
+                         </div>
+                         <div class="progress">
+                            <div class="progress-bar" role="progress-bar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:85%">
+                                <h5>BOOTSTRAP 75%</h5>
+                            </div>
+                         </div>
+                         <div class="progress">
+                            <div class="progress-bar" role="progress-bar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:85%">
+                                <h5>ANGULA 50%</h5>
+                            </div>
+                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="experience">
+        <div class="container">
+            <div class="white-divider"></div>
+            <center>
+                <div style="color:#fff; margin-top:5px; margin-bottom:25px;">
+                    <h2>Expérience professionnelle</h2>
+                </div>
+            </center>
+
+            <ul class="timeline">
+                <li>
+                    <div class="timeline-badge"><span class="glyphicon glyphicon-briefcase"></span></div>
+                    <div class="timeline-panel-container">
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h3>GOOGLE</h3>
+                                <h4>Développeur web senior</h4>
+                                <p class="text-muted"><small class="glyphicon glyphicon-time"></small> 2017-2025</p>
+                            </div>
+                            <div class="timeline-body">
+                                <p>Ajout de la possibilité d'écouter une traduction dans Google Translate</p>
+                                <p>Développement de Google Suggest en mode Offline</p>
+                                <p>Nouveau design du player de YouTube adapté au mobile</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="timeline-badge"><span class="glyphicon glyphicon-briefcase"></span></div>
+                        <div class="timeline-panel-container-inverted">
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h3>FACEBOOK</h3>
+                                    <h4>Développeur web</h4>
+                                    <p class="text-muted"><small class="glyphicon glyphicon-time"></small> 2013-2015</p>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>Développement du bouton Share pour les applis Web mobile</p>
+                                    <p>Lancement automatique des vidéos en mode mute depuis la Timeline</p>
+                                </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="timeline-badge"><span class="glyphicon glyphicon-briefcase"></span></div>
+                    <div class="timeline-panel-container">
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h3>YOUTUBE</h3>
+                                <h4>Développeur web senior</h4>
+                                <p class="text-muted"><small class="glyphicon glyphicon-time"></small> 2013-2015</p>
+                            </div>
+                            <div class="timeline-body">
+                                <p>Création et développement du Retweet pour l'appli Web</p>
+                                <p>Intégration des vidéos sur les applis web mobile</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section id="education">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="education-block">
+                        <h5>2024-2026</h5>
+                        <span class="glyphicon glyphicon-education "></span>
+                        <h3>Institut universitaire d Technologie</h3>
+                        <h4>DUT</h4>
+                        <div class="red-divit"></div>
+                        <p>Intelligence Artificielle</p>
+                        <p>systeme d'informations</p>
+
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="education-block">
+                        <h5>2018-2022</h5>
+                        <span class="glyphicon glyphicon-education "></span>
+                        <h3>Formation Codexmaker</h3>
+                        <h4>Certificat Sololearn</h4>
+                        <div class="red-divit"></div>
+                        <p>Developpement d'application web</p>
+                        <p>Developpement d'application Desktop </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+     <section id="portfolio">
+      <div class="container">
+        <div class="white-divider"></div>
+        <center>
+            <div style="color:#fff; margin-top:5px; margin-bottom:25px;">
+                <h2>Portfolio</h2>
+            </div>
+        </center>
+        <div class="row">
+            <div class="col-sm-4">
+                 <a  class="thumbnail" href="https://www.facebook.com">
+                    <img src="./images/20.7 facebook_share.png.png" alt="facebook">
+                 </a>
+            </div>
+
+            <div class="col-sm-4">
+                <a  class="thumbnail" href="https://www.google.com.com">
+                    <img src="./images/20.5 google_translate.png.png" alt="google">
+                 </a>
+            </div>
+            <div class="col-sm-4">
+                <a  class="thumbnail" href="https://web.facebook.com/share/p/1Bk7wC5BjA/">
+                    <img src="./images/20.8 twitter_retweet.png.png" alt="twitter">
+                 </a>
+            </div>
+            <div class="col-sm-4">
+                <a  class="thumbnail" href="https://web.facebook.com/share/p/1Bk7wC5BjA/">
+                    <img src="./images/20.2 youtube.png.png" alt="youtube.com">
+                 </a>
+            </div>
+            <div class="col-sm-4">
+                <a  class="thumbnail" href="https://web.facebook.com/share/p/1Bk7wC5BjA/">
+                    <img src="./images/20.9 facebook_video.png.png" alt="facebook">
+                 </a>
+            </div>
+            <div class="col-sm-4">
+                <a  class="thumbnail" href="https://web.facebook.com/share/p/1Bk7wC5BjA/">
+                    <img src="./images/20.1 twitter_video.png.png" alt="facebook">
+                 </a> 
+            </div> 
+        </div>
+      </div>
+     </section>
+     <section id="recommandation">
+         <div class="container">
+            <div class="red-divit"></div>
+            <div style="color:#db2c2e; text-align:center; margin-top:5px; margin-bottom:25px;">
+                <h2>Recommandations</h2>
+            </div>
+            <div id="mycarousel" class="carousel slide text-center" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li  data-target="#mycarousel" data-slide-to="0" class="active" ></li>
+                    <li  data-target="#mycarousel" data-slide-to="1"  ></li>
+                    <li  data-target="#mycarousel" data-slide-to="2" ></li>
+
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <h3>"merci de me soutenir dans mes projets..."</h3>
+                        <h4>clara</h4>
+                    </div>
+                    <div class="item">
+                        <h3>"l esprit le plus perseverent que je connais..."</h3>
+                        <h4>hyllari</h4>
+                       
+                </div>
+                <div class="item">
+                    <h3>"merci de m apprendre a coder...."</h3>
+                    <h4>staelle</h4>
+                    </div>
+                </div>
+                <a class="left carousel-control" href="#mycarousel" data-slide="prev" role="button" >
+                    <span class="glyphicon glyphicon-chevron-left "></span>
+                </a>
+                <a class="right carousel-control" href="#mycarousel" data-slide="prev" role="button" >
+                    <span class="glyphicon glyphicon-chevron-right "></span>
+                </a>
+            </div>
+         </div>
+     </section>
+     <footer class="text-center">
+        <a href="#about">
+            <span class="glyphicon glyphicon-chevron-up"></span>
+        </a>
+        <h5>@ copyright 2025 CodexMaker.com</h5>
+     </footer>
+     <script src="./sccript.js"></script>
+</body>
+</html> 
